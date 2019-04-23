@@ -153,7 +153,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 */
 function removeElementFromBeginningOfArray(array) {
   var outputArray = array;
-  outputArray.shift();
+  
   return outputArray;
 }
 /*
