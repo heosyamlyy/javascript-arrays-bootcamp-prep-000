@@ -25,6 +25,8 @@ function addElementToBeginningOfArray(array, element) {
   outputArray = outputArray.unshift(element);
   return outputArray;
 }
+var array = [1,2,3,4,5]
+console.log(addElementToBeginningOfArray(array, 118))
 
 /*
   describe('addElementToBeginningOfArray(array, element)', () => {
