@@ -66,7 +66,7 @@ console.log(newArray)
   })
 */
 function addElementToEndOfArray(array, element) {
-  var outputArray = array;
+  var outputArray = array.slice(0, array.length);
   outputArray.push(element);
   console.log(outputArray)
   return outputArray;
