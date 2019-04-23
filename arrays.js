@@ -192,7 +192,7 @@ function destructivelyRemoveElementFromEndOfArray(array) {
   })
 */
 function removeElementFromEndOfArray(array) {
-  var outputArray = array.slice(0, array.length);
+  var outputArray = array.slice(0, array.length - 1);
   return outputArray;
 }
 var newArray = [1,2,3]
